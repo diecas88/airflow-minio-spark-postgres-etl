@@ -1,6 +1,7 @@
 # 🚀 Airflow Castor - ETL Project with Apache Airflow
 
 [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)](https://airflow.apache.org/)
+[![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=Astro&logoColor=white)](https://www.astronomer.io/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
@@ -8,13 +9,13 @@
 
 ## 📋 Description
 
-This project implements an ETL (Extract, Transform, Load) pipeline using Apache Airflow, PySpark, MinIO, and PostgreSQL. The system processes orders and products data, performing transformations with PySpark and storing the results in a PostgreSQL database.
+This project implements an ETL (Extract, Transform, Load) pipeline using **Astro Runtime** (Apache Airflow), PySpark, MinIO, and PostgreSQL. The system processes orders and products data, performing transformations with PySpark and storing the results in a PostgreSQL database. Built with **Astro Runtime 3.1** for enhanced performance and reliability.
 
 ## 🏗️ Architecture
 
 The project consists of the following components:
 
-- 🔄 **Apache Airflow**: Workflow orchestrator
+- 🚀 **Astro Runtime 3.1**: Enhanced Apache Airflow runtime with pre-installed providers
 - ⚡ **PySpark**: Data processing engine for ETL
 - 🗄️ **MinIO**: S3-compatible object storage
 - 🐘 **PostgreSQL**: Relational database for storing processed data
@@ -22,13 +23,14 @@ The project consists of the following components:
 
 ## ✨ Key Features
 
+- 🚀 **Astro Runtime**: Enhanced Apache Airflow with pre-installed providers and optimizations
 - 🔄 **Complete ETL Pipeline**: Data extraction, transformation, and loading
 - ⚡ **PySpark Processing**: Distributed and scalable transformations
 - 💾 **Hybrid Storage**: MinIO for intermediate data, PostgreSQL for final data
 - ☁️ **BigQuery Integration**: Customer data extraction from Google Cloud
 - 🛡️ **Error Handling**: Success and failure tasks with trigger rules
 - 📦 **Data Compression**: Optimized storage with Parquet format
-- 🔧 **Docker Support**: Containerized deployment
+- 🔧 **Docker Support**: Containerized deployment with Astro Runtime
 - 📊 **Real-time Monitoring**: Comprehensive logging and monitoring
 
 ## 📁 Project Structure
@@ -48,7 +50,7 @@ airflow-castor/
 │   └── 🔑 bigquery-course-464012-acf411040090.json # GCP credentials
 ├── 🐳 docker-compose.yml        # PostgreSQL configuration
 ├── 🐳 docker-compose.override.yml # MinIO configuration
-├── 🐳 Dockerfile               # Custom image with Java and AWS JARs
+├── 🐳 Dockerfile               # Astro Runtime with Java and AWS JARs
 ├── 📦 requirements.txt         # Python dependencies
 ├── 📦 packages.txt            # System packages
 └── 📄 README.md               # Project documentation
@@ -57,7 +59,7 @@ airflow-castor/
 ## 🛠️ Technologies Used
 
 ### 🔧 Core
-- 🔄 **Apache Airflow 2.x**: Workflow orchestration
+- 🚀 **Astro Runtime 3.1**: Enhanced Apache Airflow with pre-installed providers
 - 🐍 **Python 3.x**: Main programming language
 - ⚡ **PySpark 3.5.4**: Distributed data processing
 
@@ -340,6 +342,7 @@ This project is under the MIT License. See the `LICENSE` file for more details.
 
 ## 🙏 Acknowledgments
 
+- 🚀 Astro Runtime and Astronomer Team
 - 🔄 Apache Airflow Community
 - ⚡ PySpark Documentation
 - 🗄️ MinIO Documentation
@@ -348,6 +351,7 @@ This project is under the MIT License. See the `LICENSE` file for more details.
 
 ## 📚 Additional Resources
 
+- 🚀 [Astro Runtime Documentation](https://docs.astronomer.io/astro/)
 - 📖 [Apache Airflow Documentation](https://airflow.apache.org/docs/)
 - ⚡ [PySpark Documentation](https://spark.apache.org/docs/latest/api/python/)
 - 🗄️ [MinIO Documentation](https://docs.min.io/)
