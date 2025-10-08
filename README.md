@@ -102,7 +102,7 @@ airflow-castor/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/diecas88/airflow-minio-spark-postgres-etl
 cd airflow-castor
 ```
 
@@ -328,7 +328,7 @@ This project is under the MIT License. See the `LICENSE` file for more details.
 
 ## 👥 Authors
 
-- **Diego Castellanos** - *Initial Development* - [GitHub](https://github.com/diego)
+- **Diego Castellanos** - *Initial Development* - [GitHub](https://github.com/diecas88)
 
 ## 🤝 Contributing
 
