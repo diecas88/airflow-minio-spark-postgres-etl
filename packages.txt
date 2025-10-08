@@ -1,0 +1,4 @@
+# Empty packages file - no system packages needed
+# PostgreSQL dependencies are handled by Airflow providers
+
+
